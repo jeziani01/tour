@@ -1,32 +1,38 @@
-body{
-    background-color: rgba(178,178,178,255);
+body {
+    background-color: rgba(178, 178, 178, 255);
     font-family: Arial, Helvetica, sans-serif;
 }
-img{
+
+img {
     width: 100%;
 }
-ul{
+
+ul {
     list-style-image: url(img/icon.png);
 }
-span{
+
+span {
     color: #0267b5;
     font-weight: bold;
 }
-.eredmenyek{
+
+.eredmenyek {
     color: white;
     font-style: italic;
     font-weight: bold;
     font-size: large;
     font-variant: small-caps;
 }
-.hharom{
+
+.hharom {
     color: #0267b5;
     font-style: italic;
     font-weight: bold;
     font-size: large;
     font-variant: small-caps;
 }
-.tablazat{
+
+.tablazat {
     border-style: solid;
     border-color: #e62a29;
     border-width: 2px;
@@ -35,7 +41,8 @@ span{
     border-radius: 15px;
     color: white;
 }
-.tobbi{
+
+.tobbi {
     border-style: solid;
     border-color: #e62a29;
     border-width: 2px;
@@ -43,11 +50,19 @@ span{
     background-color: white;
     border-radius: 15px;
 }
-.mg-t{
+
+.mg-t {
     margin-top: 1%;
 }
-td, th{
+
+td,
+th {
     border-style: solid;
     border-color: white;
     border-width: 1px;
+}
+
+p {
+    color: black;
+
 }
